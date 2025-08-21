@@ -1,0 +1,1 @@
+import{a as r,o as a,l as s}from"./runtime-dom.esm-bundler-DFvu3hut.js";const p=(o,n)=>{const t=o.__vccOpts||o;for(const[c,e]of n)t[c]=e;return t},_={};function l(o,n){return a(),r("h1",null," Coming Soon! ")}const f=p(_,[["render",l]]);s(f).mount("#app");
