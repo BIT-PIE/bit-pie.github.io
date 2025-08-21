@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+/* Preline UI */
+@import "preline/variants.css";
+@source "preline/dist/*.js";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --breakpoint-3xl: 112rem;
+
+  --color-primary-50: oklch(0.987 0.026 102.212);
+  --color-primary-100: oklch(0.973 0.071 103.193);
+  --color-primary-200: oklch(0.945 0.129 101.54);
+  --color-primary-300: oklch(0.905 0.182 98.111);
+  --color-primary-400: oklch(0.852 0.199 91.936);
+  --color-primary-500: oklch(0.795 0.184 86.047);
+  --color-primary-600: oklch(0.681 0.162 75.834);
+  --color-primary-700: oklch(0.554 0.135 66.442);
+  --color-primary-800: oklch(0.476 0.114 61.907);
+  --color-primary-900: oklch(0.421 0.095 57.708);
+  --color-primary-950: oklch(0.286 0.066 53.813);
+
+}
+
+
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y proximity;
+  scroll-padding-top: 60px; /* Reserve space for header */
+}
+
+header {
+  @apply bg-white dark:bg-neutral-900 lg:bg-transparent lg:dark:bg-transparent;
+}
+
+.scrolled header {
+  @apply lg:-translate-y-3;
+}
+
+.scrolled .header-left,
+.scrolled .header-right {
+  @apply lg:invisible;
+}
+
+.scrolled .header-center {
+  @apply lg:rounded-full lg:shadow-md lg:backdrop-blur lg:bg-neutral-100/80 lg:dark:bg-neutral-100/20;
+}
+
+.active-nav-link {
+  @apply relative font-bold hover:text-black dark:hover:text-white before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-primary-400;
+}
+
+.simple-link {
+  @apply text-blue-600 hover:underline dark:text-blue-400;
+}
+
+
+/* Lab photos slide */
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-slide {
+  display: flex;
+  width: max-content;
+  animation: scroll 45s linear infinite;
+}
