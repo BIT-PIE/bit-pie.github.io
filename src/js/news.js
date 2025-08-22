@@ -1,5 +1,13 @@
 export const news = [
   {
+    date: '2025.08',
+    content: 'Our paper \"CLONE: Closed-Loop Whole-Body Humanoid Teleoperation for Long-Horizon Tasks\" was accepted by CoRL 2025. Congratulations to Yixuan!',
+  },
+  {
+    date: '2025.07',
+    content: 'Our paper \"LiteAT: A Data-Lightweight and User-Adaptive VR Telepresence System for Remote Education\" was accepted by IEEE VR ISMAR 2025. Congratulations to Yuxin!',
+  },
+  {
     date: '2024.12',
     content: 'Our paper \"FloNa: Floor Plan Guided Embodied Visual Navigation\" was accepted as an oral presentation at AAAI 2025. Congratulations to Jiaxin and Weiqi!',
   },

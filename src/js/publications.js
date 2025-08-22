@@ -1,15 +1,63 @@
 export const publications = [
   {
+    title: 'CLONE: Closed-Loop Whole-Body Humanoid Teleoperation for Long-Horizon Tasks',
+    authors: 'Yixuan Li*, Yutang Lin*, Jieming Cui, Tengyu Liu, Wei Liang, Yixin Zhu, Siyuan Huang',
+    publisher: 'CoRL 2025',
+    description: '',
+    links: {
+      image: '',
+      arxiv: 'https://arxiv.org/abs/2506.08931',
+      video: 'https://vimeo.com/1092360484',
+      code: 'https://github.com/humanoid-clone/CLONE/',
+      web: 'https://humanoid-clone.github.io/'
+    }
+  },
+  {
+    title: 'LiteAT: A Data-Lightweight and User-Adaptive VR Telepresence System for Remote Education',
+    authors: 'Yuxin Shen , Wei Liang , Jianzhu Ma',
+    publisher: 'IEEE ISMAR 2025 (CCF B)',
+    description: 'This paper introduces LiteAT, a data-lightweight and user-adaptive VR telepresence system, to enable real-time, immersive learning experiences.',
+    links: {
+      image: '',
+      web: 'https://sites.google.com/view/lite-adaptive-telepresence',
+    }
+  },
+  {
+    title: 'Env-Mani: Quadrupedal Robot Loco-Manipulation with Environment-in-the-Loop',
+    authors: 'Yixuan Li, Zan Wang, Wei Liang',
+    publisher: 'IROS 2025 (CCF C)',
+    description: '',
+    links: {
+      image: '',
+      video: 'https://www.youtube.com/watch?v=8BAaLCI8cis',
+      web: 'https://sites.google.com/view/env-mani',
+    }
+  },
+  {
+    title: 'R2G: Reasoning to Ground in 3D Scenes',
+    authors: 'Yixuan Li, Zan Wang, Wei Liang',
+    publisher: 'Pattern Recognition 2025 (CCF B)',
+    description: '',
+    links: {
+      image: '',
+      paper: 'https://www.sciencedirect.com/science/article/abs/pii/S0031320325003887',
+      arxiv: 'arxiv: https://arxiv.org/abs/2408.13499',
+      video: 'video: https://www.youtube.com/watch?v=Y2dhg3cyiqY',
+      code: 'https://github.com/yixxuan-li/R2G',
+      web: 'https://sites.google.com/view/reasoning-to-ground',
+    }
+  },
+  {
     title: 'FloNa: Floor Plan Guided Embodied Visual Navigation',
     authors: 'Jiaxin Li, Weiqi Huang, Zan Wang, Wei Liang, Huijun Di, Feng Liu',
     publisher: 'AAAI 2025 (CCF A), <font style="color:#FF0800">Oral</font>',
     description: 'We propose FloNa, a novel navigation task that leverages prior floor plans for guidance. To efficiently solve FloNa, we introduce FloDiff, a diffusion-based policy framework equipped with a localization module.',
     links: {
       image: './project/aaai25_flona/teaser.jpg',
-      paper: '',
+      paper: 'https://ojs.aaai.org/index.php/AAAI/article/view/33601',
       arxiv: 'https://arxiv.org/abs/2412.18335',
       video: 'https://gauleejx.github.io/flona/',
-      code: '',
+      code: 'https://github.com/GauleeJX/flodiff',
       ppt: '/',
       web: 'https://gauleejx.github.io/flona/'
     }

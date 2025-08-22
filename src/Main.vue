@@ -40,14 +40,19 @@ import { ROLE, members } from '@/js/team.js';
 const faculty = computed(() => {
   return members.filter(member => member.role === ROLE.faculty).sort((a, b) => a.enName.split(' ').reverse().join(' ').localeCompare(b.enName.split(' ').reverse().join(' ')));
 });
-const student = computed(() => {
-  return members.filter(member => member.role === ROLE.student).sort((a, b) => a.enName.split(' ').reverse().join(' ').localeCompare(b.enName.split(' ').reverse().join(' ')));
+const phd = computed(() => {
+  return members.filter(member => member.role === ROLE.student && member.description.toLowerCase().includes('phd')).sort((a, b) => a.enName.split(' ').reverse().join(' ').localeCompare(b.enName.split(' ').reverse().join(' ')));
+});
+const master = computed(() => {
+  return members.filter(member => member.role === ROLE.student && member.description.toLowerCase().includes('master')).sort((a, b) => a.enName.split(' ').reverse().join(' ').localeCompare(b.enName.split(' ').reverse().join(' ')));
 });
 const undergraduate = computed(() => {
   return members.filter(member => member.role === ROLE.undergraduate).sort((a, b) => a.enName.split(' ').reverse().join(' ').localeCompare(b.enName.split(' ').reverse().join(' ')));
 });
 const alumni = computed(() => {
-  return members.filter(member => member.role === ROLE.alumni).sort((a, b) => a.enName.split(' ').reverse().join(' ').localeCompare(b.enName.split(' ').reverse().join(' ')));
+  let phd = members.filter(member => member.role === ROLE.alumni && member.description.toLowerCase().includes('phd')).sort((a, b) => a.enName.split(' ').reverse().join(' ').localeCompare(b.enName.split(' ').reverse().join(' ')));
+  let master = members.filter(member => member.role === ROLE.alumni && member.description.toLowerCase().includes('master')).sort((a, b) => a.enName.split(' ').reverse().join(' ').localeCompare(b.enName.split(' ').reverse().join(' ')));
+  return [...phd, ...master]
 });
 
 /** publications **/
@@ -238,11 +243,23 @@ const currentYear = new Date().getFullYear();
         </Avatar>
       </div>
 
-      <div class="text-center text-2xl font-semibold pt-12 pb-6">
-        Graduate Student
+      <div v-if="phd.length > 0" class="text-center text-2xl font-semibold pt-12 pb-6">
+        PhD Student
       </div>
-      <div class="flex flex-wrap justify-center gap-6">
-        <Avatar v-for="(member, index) in student" :key="index"
+      <div v-if="phd.length > 0" class="flex flex-wrap justify-center gap-6">
+        <Avatar v-for="(member, index) in phd" :key="index"
+          :enName="member.enName"
+          :chName="member.chName"
+          :description="member.description"
+          :links="member.links">
+        </Avatar>
+      </div>
+
+      <div v-if="master.length > 0" class="text-center text-2xl font-semibold pt-12 pb-6">
+        Master Student
+      </div>
+      <div v-if="master.length > 0" class="flex flex-wrap justify-center gap-6">
+        <Avatar v-for="(member, index) in master" :key="index"
           :enName="member.enName"
           :chName="member.chName"
           :description="member.description"
@@ -331,15 +348,15 @@ const currentYear = new Date().getFullYear();
 
       <div class="overflow-hidden w-full py-5">
         <div class="flex gap-6 animate-slide">
-          <img v-for="(photo, index) in photosGroup1" :key="index" :src="photo" class="rounded-xl h-48 xl:h-72 3xl:h-96 w-auto" />
-          <img v-for="(photo, index) in photosGroup1" :key="index + 2 * photosGroup1.length" :src="photo" class="rounded-xl h-48 xl:h-72 3xl:h-96 w-auto" /> <!-- Duplicate to create a continuous scroll effect -->
+          <img v-for="(photo, index) in photosGroup1" :key="index" :src="photo" class="rounded-xl h-48 xl:h-64 3xl:h-80 w-auto" />
+          <img v-for="(photo, index) in photosGroup1" :key="index + 2 * photosGroup1.length" :src="photo" class="rounded-xl h-48 xl:h-64 3xl:h-80 w-auto" /> <!-- Duplicate to create a continuous scroll effect -->
         </div>
       </div>
 
       <div class="overflow-hidden w-full py-5">
         <div class="flex gap-6 animate-slide">
-          <img v-for="(photo, index) in photosGroup2" :key="index" :src="photo" class="rounded-xl h-48 xl:h-72 3xl:h-96 w-auto" />
-          <img v-for="(photo, index) in photosGroup2" :key="index + 2 * photosGroup2.length" :src="photo" class="rounded-xl h-48 xl:h-72 3xl:h-96 w-auto" /> <!-- Duplicate to create a continuous scroll effect -->
+          <img v-for="(photo, index) in photosGroup2" :key="index" :src="photo" class="rounded-xl h-48 xl:h-64 3xl:h-80 w-auto" />
+          <img v-for="(photo, index) in photosGroup2" :key="index + 2 * photosGroup2.length" :src="photo" class="rounded-xl h-48 xl:h-64 3xl:h-80 w-auto" /> <!-- Duplicate to create a continuous scroll effect -->
         </div>
       </div>
     </div>

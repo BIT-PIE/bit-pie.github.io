@@ -69,5 +69,5 @@ header {
 .animate-slide {
   display: flex;
   width: max-content;
-  animation: scroll 45s linear infinite;
+  animation: scroll 60s linear infinite;
 }

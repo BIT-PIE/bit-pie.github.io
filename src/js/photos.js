@@ -24,4 +24,5 @@ export const photos = [
   '/images/lab/lab-230626-12.jpg',
   '/images/lab/lab-241012-01.jpg',
   '/images/lab/lab-241012-02.jpg',
+  '/images/lab/lab-250822-01.jpg',
 ]

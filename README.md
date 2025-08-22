@@ -36,7 +36,7 @@ npm run build
 
 - Update Publications
 
-  1. Edit the `src/js/publications.js` file to add or modify publications.
+  1. Edit the `src/js/publications.js` file to add or modify publications. The publication is presented in the order of the list in the file.
 
 - Update Photos
 
