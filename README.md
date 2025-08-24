@@ -42,3 +42,4 @@ npm run build
 
   1. Put the new photo in `public/images/lab/` directory.
   2. Edit the `src/js/photos.js` file to add or modify photo entries. Using `lab-YYMMDD-NUM` as the filename is recommended, where `YYMMDD` is the date and `NUM` is a number starting from 1, e.g., `lab-240101-01.jpg`. Compress the image below 600KB for optimal performance.
+  3. Don't enable too many photos at once to avoid long loading time. Around 25 photos are recommended.

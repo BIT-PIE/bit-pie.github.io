@@ -159,7 +159,7 @@ const currentYear = new Date().getFullYear();
         </svg>
         <div class="relative z-10">
           <p class="text-lg text-justify"><em>
-            The <span class="font-semibold">Perception, Interaction, and Embodiment Lab (PIE Lab)</span> is affiliated with the <a class="simple-link" href="https://cs.bit.edu.cn/">School of Computer Science & Technology</a> at <a class="simple-link" href="https://bit.edu.cn/">Beijing Institute of Technology (BIT)</a>. We are dedicated to advancing the fields of Computer Vision, Human-Computer Interaction, and Embodied AI through innovative research and development.
+            The <span class="font-semibold">Perception, Interaction, and Embodiment Lab (PIE Lab)</span>, affiliated with the <a class="simple-link" href="https://cs.bit.edu.cn/">School of Computer Science & Technology</a> at <a class="simple-link" href="https://bit.edu.cn/">Beijing Institute of Technology (BIT)</a>, aiming to build intelligent systems that see, interact, and act in the world.
           </em></p>
         </div>
       </blockquote>
@@ -172,8 +172,8 @@ const currentYear = new Date().getFullYear();
           <!-- <p class="mt-1 text-xs font-medium uppercase text-gray-500 dark:text-neutral-500">
             Card subtitle
           </p> -->
-          <p class="mt-2 text-gray-500 dark:text-neutral-400">
-            Some quick example text to build on the card title and make up the bulk of the card's content.
+          <p class="mt-2 text-gray-500 dark:text-neutral-400 text-justify">
+            We focus on multi-sensor perception and fusion, integrating vision, LiDAR, IMU, and other modalities to support applications in unmanned platforms.
           </p>
         </div>
 
@@ -184,8 +184,8 @@ const currentYear = new Date().getFullYear();
           <!-- <p class="mt-1 text-xs font-medium uppercase text-gray-500 dark:text-neutral-500">
             Card subtitle
           </p> -->
-          <p class="mt-2 text-gray-500 dark:text-neutral-400">
-            Some quick example text to build on the card title and make up the bulk of the card's content.
+          <p class="mt-2 text-gray-500 dark:text-neutral-400 text-justify">
+            We explore human-computer interaction, with an emphasis on intelligent content generation for VR/AR applications to enhance immersive experiences.
           </p>
         </div>
 
@@ -196,8 +196,8 @@ const currentYear = new Date().getFullYear();
           <!-- <p class="mt-1 text-xs font-medium uppercase text-gray-500 dark:text-neutral-500">
             Card subtitle
           </p> -->
-          <p class="mt-2 text-gray-500 dark:text-neutral-400">
-            Some quick example text to build on the card title and make up the bulk of the card's content.
+          <p class="mt-2 text-gray-500 dark:text-neutral-400 text-justify">
+            We aim to endow embodied AI agents with fundamental motor skills, empowering navigation and locomotion for both wheeled and legged robots.
           </p>
         </div>
       </div>

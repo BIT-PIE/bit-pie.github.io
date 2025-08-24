@@ -61,7 +61,7 @@ export const members = [
       avatar: '/images/people/wangzan.jpg',
       email: 'zanwang98@gmail.com',
       github: 'https://github.com/Silverster98',
-      website: 'https://silvester.github.io',
+      website: 'https://silvester.wang',
     }
   },
   {

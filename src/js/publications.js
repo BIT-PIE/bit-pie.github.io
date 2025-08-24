@@ -15,7 +15,7 @@ export const publications = [
   {
     title: 'LiteAT: A Data-Lightweight and User-Adaptive VR Telepresence System for Remote Education',
     authors: 'Yuxin Shen , Wei Liang , Jianzhu Ma',
-    publisher: 'IEEE ISMAR 2025 (CCF B)',
+    publisher: 'TVCG 2025 (Special Issue on IEEE ISMAR 2025) (CCF A)',
     description: 'This paper introduces LiteAT, a data-lightweight and user-adaptive VR telepresence system, to enable real-time, immersive learning experiences.',
     links: {
       image: '',
