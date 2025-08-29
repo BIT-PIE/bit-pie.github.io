@@ -5,7 +5,7 @@ export const news = [
   },
   {
     date: '2025.07',
-    content: 'Our paper \"LiteAT: A Data-Lightweight and User-Adaptive VR Telepresence System for Remote Education\" was accepted by IEEE VR ISMAR 2025. Congratulations to Yuxin!',
+    content: 'Our paper \"LiteAT: A Data-Lightweight and User-Adaptive VR Telepresence System for Remote Education\" was accepted by IEEE ISMAR 2025. Congratulations to Yuxin!',
   },
   {
     date: '2024.12',

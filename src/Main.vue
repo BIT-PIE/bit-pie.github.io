@@ -130,8 +130,8 @@ const currentYear = new Date().getFullYear();
         <div id="hs-header-links" class="flex flex-col gap-y-4 gap-x-0 mt-5 lg:flex-row lg:justify-center lg:items-center lg:gap-y-0 lg:gap-x-7 lg:mt-0">
           <a class="inline-block text-black hover:text-gray-500 dark:hover:text-neutral-300; dark:text-white active-nav-link" href="#home">Home</a>
           <a class="inline-block text-black hover:text-gray-500 dark:hover:text-neutral-300; dark:text-white" href="#news">News</a>
-          <a class="inline-block text-black hover:text-gray-500 dark:hover:text-neutral-300; dark:text-white" href="#team">Team</a>
           <a class="inline-block text-black hover:text-gray-500 dark:hover:text-neutral-300; dark:text-white" href="#publications">Publications</a>
+          <a class="inline-block text-black hover:text-gray-500 dark:hover:text-neutral-300; dark:text-white" href="#team">Team</a>
           <a class="inline-block text-black hover:text-gray-500 dark:hover:text-neutral-300; dark:text-white" href="#photos">Photos</a>
         </div>
       </div>
@@ -223,6 +223,32 @@ const currentYear = new Date().getFullYear();
     </div>
   </section>
 
+  <section id="publications">
+    <div class="max-w-7xl px-4 sm:px-6 lg:px-8 py-12 lg:py-16 mx-auto">
+      <div class="mb-6 sm:mb-10 max-w-2xl text-center mx-auto">
+        <h1 class="font-medium text-black text-3xl sm:text-4xl dark:text-white">
+          Selected Publications
+        </h1>
+      </div>
+
+      <div class="flex flex-col justify-center items-center">
+        <Publication v-for="(pub, index) in selectedPublications" :key="index"
+          :title="pub.title"
+          :authors="pub.authors"
+          :publisher="pub.publisher"
+          :links="pub.links">
+        </Publication>
+      </div>
+
+      <div class="mt-6 text-center">
+        <a class="inline-flex items-center gap-x-1 text-sm decoration-2 font-semibold simple-link" href="/publication">
+          Full publication list
+          <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
   <section id="team">
     <div class="max-w-7xl px-4 sm:px-6 lg:px-8 py-12 lg:py-16 mx-auto">
       <div class="mb-6 sm:mb-10 max-w-2xl text-center mx-auto">
@@ -309,32 +335,6 @@ const currentYear = new Date().getFullYear();
           </svg>
         </button>
       </p>
-    </div>
-  </section>
-
-  <section id="publications">
-    <div class="max-w-7xl px-4 sm:px-6 lg:px-8 py-12 lg:py-16 mx-auto">
-      <div class="mb-6 sm:mb-10 max-w-2xl text-center mx-auto">
-        <h1 class="font-medium text-black text-3xl sm:text-4xl dark:text-white">
-          Selected Publications
-        </h1>
-      </div>
-
-      <div class="flex flex-col justify-center items-center">
-        <Publication v-for="(pub, index) in selectedPublications" :key="index"
-          :title="pub.title"
-          :authors="pub.authors"
-          :publisher="pub.publisher"
-          :links="pub.links">
-        </Publication>
-      </div>
-
-      <div class="mt-6 text-center">
-        <a class="inline-flex items-center gap-x-1 text-sm decoration-2 font-semibold simple-link" href="/publication">
-          Full publication list
-          <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
-        </a>
-      </div>
     </div>
   </section>
 
