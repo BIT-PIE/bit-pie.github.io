@@ -2,6 +2,7 @@
 import { ref, computed, onMounted, onUnmounted } from 'vue';
 import Avatar from '@/components/Avatar.vue';
 import Publication from './components/Publication.vue';
+import Foot from '@/components/Foot.vue';
 
 /** navbar **/
 import scrollSpy from '@/js/scrollspy';
@@ -58,7 +59,14 @@ const alumni = computed(() => {
 /** publications **/
 import { publications } from '@/js/publications.js';
 const selectedPublications = computed(() => {
-  return publications.slice(0, 5);
+  let selectedPublications = publications.slice(0, 5);
+  // Remove images for selected publications to speed up loading
+  selectedPublications.forEach(pub => {
+    if (pub.links && pub.links.image) {
+      pub.links.image = '';
+    }
+  });
+  return selectedPublications;
 });
 
 /** photos **/
@@ -69,10 +77,6 @@ const photosGroup1 = computed(() => {
 const photosGroup2 = computed(() => {
   return photos.slice(Math.ceil(photos.length / 2));
 })
-
-/** footer **/
-const currentYear = new Date().getFullYear();
-
 </script>
 
 <template>
@@ -362,14 +366,6 @@ const currentYear = new Date().getFullYear();
     </div>
   </section>
 
-  <footer class="w-full max-w-7xl py-6 md:pt-0 px-4 sm:px-6 lg:px-8 mx-auto">
-    <hr class="border-0.5 border-neutral-200 dark:border-neutral-800">
-    <div class="grid grid-cols-1 items-center gap-5 py-6">
-      <div class="text-center text-neutral-700 dark:text-neutral-300">
-        <div class="pb-3">© {{ currentYear }} PIE Lab @ BIT.</div>
-        <div class="pb-3 text-sm">The site is deployed on <a class="simple-link" href="https://pages.github.com/">Github Pages</a>. The source is licensed under <a class="simple-link" href="https://creativecommons.org/licenses/by-nc-nd/4.0/"> CC-BY-NC_ND</a>.</div>
-      </div>
-    </div>
-  </footer>
+  <Foot></Foot>
 </div>
 </template>
