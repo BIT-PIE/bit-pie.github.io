@@ -218,7 +218,7 @@ const photosGroup2 = computed(() => {
       
       <div class="px-6 md:px-12">
         <ul class="list-disc list-inside">
-          <li v-for="(item, index) in sortedNews" :key="index" class="mb-2">
+          <li v-for="(item, index) in sortedNews" :key="index" class="mb-2 text-justify">
             <span class="text-lg font-semibold">[{{ item.date }}]</span>
             <span class="text-lg ms-2" v-html="item.content"></span>
           </li>

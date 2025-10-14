@@ -33,11 +33,11 @@ const validLinks = computed(() => {
 
 <template>
 <div class="w-4/5 flex border border-gray-200 border-t-4 border-t-blue-500 shadow-2xs rounded-xl mx-3 lg:mx-6 my-3 dark:border-neutral-700 dark:border-t-blue-500 dark:shadow-neutral-700">
-  <div class="flex-shrink-0 px-4 py-4">
-    <img v-if="links.image" :src="links.image" class="w-32 h-auto md:w-56 lg:w-64 object-cover rounded-t-lg md:rounded-t-none md:rounded-s-lg">
+  <div v-if="links.image" class="flex-shrink-0 pl-4 md:pl-6 py-3 md:py-5">
+    <img :src="links.image" class="w-32 h-auto md:w-56 lg:w-64 object-cover rounded-t-lg md:rounded-t-none md:rounded-s-lg">
   </div>
   
-  <div class="p-4 md:p-5">
+  <div class="p-4 md:p-6">
     <h3 class="text-lg font-bold text-gray-800 dark:text-white">
       <a :href="links.web ? links.web : links.paper" class="hover:underline">{{ title }}</a>
     </h3>

@@ -1,5 +1,9 @@
 export const news = [
   {
+    date: '2025.10',
+    content: 'Our paper \"LiteAT: A Data-Lightweight and User-Adaptive VR Telepresence System for Remote Education\" won the <font style="color:#FF0800">Best Paper Awards Honorable Mention</font> at IEEE ISMAR 2025. Congratulations to Yuxin!',
+  },
+  {
     date: '2025.08',
     content: 'Our paper \"CLONE: Closed-Loop Whole-Body Humanoid Teleoperation for Long-Horizon Tasks\" was accepted by CoRL 2025. Congratulations to Yixuan!',
   },
@@ -9,11 +13,11 @@ export const news = [
   },
   {
     date: '2024.12',
-    content: 'Our paper \"FloNa: Floor Plan Guided Embodied Visual Navigation\" was accepted as an oral presentation at AAAI 2025. Congratulations to Jiaxin and Weiqi!',
+    content: 'Our paper \"FloNa: Floor Plan Guided Embodied Visual Navigation\" was accepted as an <font style="color:#FF0800">Oral</font> presentation at AAAI 2025. Congratulations to Jiaxin and Weiqi!',
   },
   {
     date: '2024.12',
-    content: 'Our paper \"X\'s Day: Personality-Driven Virtual Human Behavior Generation\" was accepted by TVCG Special Issue on IEEE VR 2025. Congratulations to Haoyang!',
+    content: 'Our paper \"X\'s Day: Personality-Driven Virtual Human Behavior Generation\" was accepted as TVCG Journal paper at IEEE VR 2025. Congratulations to Haoyang!',
   },
   {
     date: '2024.07',

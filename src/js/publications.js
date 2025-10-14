@@ -15,11 +15,14 @@ export const publications = [
   {
     title: 'LiteAT: A Data-Lightweight and User-Adaptive VR Telepresence System for Remote Education',
     authors: 'Yuxin Shen , Wei Liang , Jianzhu Ma',
-    publisher: 'TVCG 2025 (Special Issue on IEEE ISMAR 2025) (CCF A)',
+    publisher: 'TVCG 2025 (IEEE ISMAR 2025 Journal Track, <font style="color:#FF0800">Best Paper Awards Honorable Mention</font>) (CCF A)',
     description: 'This paper introduces LiteAT, a data-lightweight and user-adaptive VR telepresence system, to enable real-time, immersive learning experiences.',
     links: {
-      image: '',
-      web: 'https://sites.google.com/view/lite-adaptive-telepresence',
+      image: '/project/ismar25_liteat/teaser.jpg',
+      paper: 'https://ieeexplore.ieee.org/document/11192676',
+      video: 'https://www.youtube.com/watch?v=oKBW7zhbwbM',
+      code: 'https://github.com/SYXcandice/LiteAT',
+      web: 'https://sites.google.com/view/lite-adaptive-telepresence'
     }
   },
   {
@@ -63,7 +66,7 @@ export const publications = [
   {
     title: "X's Day: Personality-Driven Virtual Human Behavior Generation",
     authors: 'Haoyang Li, Zan Wang, Wei Liang, Yizhuo Wang',
-    publisher: 'IEEE TVCG (Special Issue on IEEE VR 2025) (CCF A)',
+    publisher: 'IEEE TVCG (IEEE VR 2025 Journal Track) (CCF A)',
     description: 'This paper introduces a novel task focused on autoregressively generating long-term behaviors for virtual agents, guided by specific personality traits and contextual elements within 3D environments.',
     links: {
       image: '/project/vr25_behavior/teaser.jpg',
