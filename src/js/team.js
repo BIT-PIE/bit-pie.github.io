@@ -17,6 +17,16 @@ export const members = [
     }
   },
   {
+    enName: 'Dianyi Yang',
+    chName: '杨殿一',
+    role: ROLE.student,
+    description: 'PhD Student ’25',
+    links: {
+      avatar: '/images/people/yangdianyi.jpg',
+      website: 'https://young-bit.github.io/Young-bit/',
+    }
+  },
+  {
     enName: 'Hao Xu',
     chName: '徐浩',
     role: ROLE.student,
