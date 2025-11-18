@@ -125,7 +125,9 @@ export const members = [
     description: 'PhD Student ’24',
     links: {
       avatar: '/images/people/shenyuxin.jpg',
+      email: 'yuxin04132000@gmail.com',
       github: 'https://github.com/SYXcandice',
+      website: 'https://syxcandice.github.io/',
     }
   },
   {

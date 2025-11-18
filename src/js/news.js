@@ -1,5 +1,9 @@
 export const news = [
   {
+    date: '2025.11',
+    content: 'Our paper \"RadarMP: Motion Perception for 4D mmWave Radar in Autonomous Driving\" was accepted by AAAI 2026. Congratulations to Ruiqi!',
+  },
+  {
     date: '2025.10',
     content: 'Our paper \"LiteAT: A Data-Lightweight and User-Adaptive VR Telepresence System for Remote Education\" won the <font style="color:#FF0800">Best Paper Awards Honorable Mention</font> at IEEE ISMAR 2025. Congratulations to Yuxin!',
   },

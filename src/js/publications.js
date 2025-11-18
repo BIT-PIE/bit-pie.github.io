@@ -1,5 +1,16 @@
 export const publications = [
   {
+    title: 'RadarMP: Motion Perception for 4D mmWave Radar in Autonomous Driving',
+    authors: 'Ruiqi Cheng, Huijun Di, Jian Li, Feng Liu, Wei Liang',
+    publisher: 'AAAI 2026',
+    description: '',
+    links: {
+      image: '/project/aaai26_radarmp/teaser.png',
+      arxiv: 'http://arxiv.org/abs/2511.12117',
+      code: 'https://github.com/chengrui7/RadarMP',
+    },
+  },
+  {
     title: 'CLONE: Closed-Loop Whole-Body Humanoid Teleoperation for Long-Horizon Tasks',
     authors: 'Yixuan Li*, Yutang Lin*, Jieming Cui, Tengyu Liu, Wei Liang, Yixin Zhu, Siyuan Huang',
     publisher: 'CoRL 2025',
