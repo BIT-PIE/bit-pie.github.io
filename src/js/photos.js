@@ -13,7 +13,7 @@ export const photos = [
   // '/images/lab/lab-230626-01.jpg',
   '/images/lab/lab-230626-02.jpg',
   '/images/lab/lab-230626-03.jpg',
-  '/images/lab/lab-230626-04.jpg',
+  // '/images/lab/lab-230626-04.jpg',
   // '/images/lab/lab-230626-05.jpg',
   // '/images/lab/lab-230626-06.jpg',
   '/images/lab/lab-230626-07.jpg',
@@ -30,4 +30,7 @@ export const photos = [
   // '/images/lab/lab-250822-04.jpg',
   '/images/lab/lab-250822-05.jpg',
   '/images/lab/lab-250822-06.jpg',
+  '/images/lab/lab-260422-01.jpg',
+  '/images/lab/lab-260422-02.jpg',
+  '/images/lab/lab-260422-03.jpg',
 ]

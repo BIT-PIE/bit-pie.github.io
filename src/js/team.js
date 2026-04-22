@@ -20,7 +20,7 @@ export const members = [
     enName: 'Dianyi Yang',
     chName: '杨殿一',
     role: ROLE.student,
-    description: 'PhD Student ’25',
+    description: 'Ph.D. Student ’25',
     links: {
       avatar: '/images/people/yangdianyi.jpg',
       website: 'https://young-bit.github.io/Young-bit/',
@@ -66,7 +66,7 @@ export const members = [
     enName: 'Zan Wang',
     chName: '王赞',
     role: ROLE.student,
-    description: 'PhD Student ’21',
+    description: 'Ph.D. Student ’21',
     links: {
       avatar: '/images/people/wangzan.jpg',
       email: 'zanwang98@gmail.com',
@@ -78,7 +78,7 @@ export const members = [
     enName: 'Jiaxin Li',
     chName: '李佳鑫',
     role: ROLE.student,
-    description: 'PhD Student ’23',
+    description: 'Ph.D. Student ’23',
     links: {
       avatar: '/images/people/lijiaxin.jpg',
       email: 'GualeeJX@outlook.com',
@@ -90,7 +90,7 @@ export const members = [
     enName: 'Yixuan Li',
     chName: '李逸旋',
     role: ROLE.student,
-    description: 'PhD Student ’23',
+    description: 'Ph.D. Student ’23',
     links: {
       avatar: '/images/people/liyixuan.jpg',
       email: 'liyixxuan@gmail.com',
@@ -102,7 +102,7 @@ export const members = [
     enName: 'Xiaozhi Li',
     chName: '李晓之',
     role: ROLE.student,
-    description: 'PhD Student ’23',
+    description: 'Ph.D. Student ’23',
     links: {
       avatar: '/images/people/lixiaozhi.jpg',
       website: 'https://lixzzzzzz.github.io/',
@@ -112,7 +112,7 @@ export const members = [
     enName: 'Ruiqi Cheng',
     chName: '成睿琦',
     role: ROLE.student,
-    description: 'PhD Student ’23',
+    description: 'Ph.D. Student ’23',
     links: {
       avatar: '/images/people/chengruiqi.jpg',
       website: 'https://reachel1.github.io/',
@@ -122,7 +122,7 @@ export const members = [
     enName: 'Yuxin Shen',
     chName: '沈雨欣',
     role: ROLE.student,
-    description: 'PhD Student ’24',
+    description: 'Ph.D. Student ’24',
     links: {
       avatar: '/images/people/shenyuxin.jpg',
       email: 'yuxin04132000@gmail.com',
@@ -134,7 +134,7 @@ export const members = [
     enName: 'Weiqi Huang',
     chName: '黄尉琪',
     role: ROLE.student,
-    description: 'PhD Student ’24',
+    description: 'Ph.D. Student ’24',
     links: {
       avatar: '/images/people/huangweiqi.jpg',
       website: 'https://wikiahuang.github.io/',
@@ -281,7 +281,7 @@ export const members = [
     enName: 'Yujia Wang',
     chName: '王雨佳',
     role: ROLE.alumni,
-    description: 'PhD Student ’17',
+    description: 'Ph.D. Student ’17',
     links: {
       avatar: '',
       website: 'https://bitwangyujia.github.io/research/',
@@ -291,7 +291,7 @@ export const members = [
     enName: 'Hanqing Wang',
     chName: '汪汉青',
     role: ROLE.alumni,
-    description: 'PhD Student ’18',
+    description: 'Ph.D. Student ’18',
     links: {
       avatar: '',
       website: 'https://hanqingwangai.github.io',

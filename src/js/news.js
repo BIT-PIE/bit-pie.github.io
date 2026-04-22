@@ -1,5 +1,13 @@
 export const news = [
   {
+    date: '2026.03',
+    content: 'Our paper \"FloVerse: Floor Plan-Guided Multi-Modal Navigation\" was accepted by CVPR 2026. Congratulations to Weiqi!',
+  },
+  {
+    date: '2025.12',
+    content: 'Our paper \"What You See Is What You Wear: Crafting Garments for Diverse Avatars with Consistent Wearing Effects\" was accepted by VR 2026. Congratulations to Zan and Anqi!',
+  },
+  {
     date: '2025.11',
     content: 'Our paper \"RadarMP: Motion Perception for 4D mmWave Radar in Autonomous Driving\" was accepted by AAAI 2026. Congratulations to Ruiqi!',
   },

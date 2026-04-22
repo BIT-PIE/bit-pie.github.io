@@ -42,7 +42,7 @@ const faculty = computed(() => {
   return members.filter(member => member.role === ROLE.faculty).sort((a, b) => a.enName.split(' ').reverse().join(' ').localeCompare(b.enName.split(' ').reverse().join(' ')));
 });
 const phd = computed(() => {
-  return members.filter(member => member.role === ROLE.student && member.description.toLowerCase().includes('phd')).sort((a, b) => a.enName.split(' ').reverse().join(' ').localeCompare(b.enName.split(' ').reverse().join(' ')));
+  return members.filter(member => member.role === ROLE.student && member.description.toLowerCase().includes('ph.d.')).sort((a, b) => a.enName.split(' ').reverse().join(' ').localeCompare(b.enName.split(' ').reverse().join(' ')));
 });
 const master = computed(() => {
   return members.filter(member => member.role === ROLE.student && member.description.toLowerCase().includes('master')).sort((a, b) => a.enName.split(' ').reverse().join(' ').localeCompare(b.enName.split(' ').reverse().join(' ')));
@@ -51,7 +51,7 @@ const undergraduate = computed(() => {
   return members.filter(member => member.role === ROLE.undergraduate).sort((a, b) => a.enName.split(' ').reverse().join(' ').localeCompare(b.enName.split(' ').reverse().join(' ')));
 });
 const alumni = computed(() => {
-  let phd = members.filter(member => member.role === ROLE.alumni && member.description.toLowerCase().includes('phd')).sort((a, b) => a.enName.split(' ').reverse().join(' ').localeCompare(b.enName.split(' ').reverse().join(' ')));
+  let phd = members.filter(member => member.role === ROLE.alumni && member.description.toLowerCase().includes('ph.d.')).sort((a, b) => a.enName.split(' ').reverse().join(' ').localeCompare(b.enName.split(' ').reverse().join(' ')));
   let master = members.filter(member => member.role === ROLE.alumni && member.description.toLowerCase().includes('master')).sort((a, b) => a.enName.split(' ').reverse().join(' ').localeCompare(b.enName.split(' ').reverse().join(' ')));
   return [...phd, ...master]
 });
@@ -72,10 +72,13 @@ const selectedPublications = computed(() => {
 /** photos **/
 import { photos } from '@/js/photos.js';
 const photosGroup1 = computed(() => {
-  return photos.slice(0, Math.ceil(photos.length / 2));
+  return photos.slice(0, Math.ceil(photos.length / 3));
 })
 const photosGroup2 = computed(() => {
-  return photos.slice(Math.ceil(photos.length / 2));
+  return photos.slice(Math.ceil(photos.length / 3), Math.ceil(2 * photos.length / 3));
+})
+const photosGroup3 = computed(() => {
+  return photos.slice(Math.ceil(2 * photos.length / 3));
 })
 </script>
 
@@ -204,6 +207,15 @@ const photosGroup2 = computed(() => {
             We aim to endow embodied AI agents with fundamental motor skills, empowering navigation and locomotion for both wheeled and legged robots.
           </p>
         </div>
+      </div>
+
+      <div class="mt-6 flex flex-col bg-white rounded-xl p-4 md:p-5 dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+        <p class="mt-2 text-lg text-red-500/80 dark:text-neutral-400 text-justify">
+          🚀 We are looking for master, Ph.D., postdoctoral, and intern researchers interested in 3D content generation, embodied intelligence, and human-computer interaction. Come build exciting things with us.
+        </p>
+        <p class="mt-2 text-lg text-red-500/80 dark:text-neutral-400 text-justify">
+          🚀 欢迎对三维内容生成、具身智能、人机交互感兴趣的硕士、博士、博士后和实习生加入我们，一起做有意思的研究。
+        </p>
       </div>
     </div>
   </section>
@@ -361,6 +373,13 @@ const photosGroup2 = computed(() => {
         <div class="flex gap-6 animate-slide">
           <img v-for="(photo, index) in photosGroup2" :key="index" :src="photo" class="rounded-xl h-48 xl:h-64 3xl:h-80 w-auto" />
           <img v-for="(photo, index) in photosGroup2" :key="index + 2 * photosGroup2.length" :src="photo" class="rounded-xl h-48 xl:h-64 3xl:h-80 w-auto" /> <!-- Duplicate to create a continuous scroll effect -->
+        </div>
+      </div>
+
+      <div class="overflow-hidden w-full py-5">
+        <div class="flex gap-6 animate-slide">
+          <img v-for="(photo, index) in photosGroup3" :key="index" :src="photo" class="rounded-xl h-48 xl:h-64 3xl:h-80 w-auto" />
+          <img v-for="(photo, index) in photosGroup3" :key="index + 2 * photosGroup3.length" :src="photo" class="rounded-xl h-48 xl:h-64 3xl:h-80 w-auto" /> <!-- Duplicate to create a continuous scroll effect -->
         </div>
       </div>
     </div>
