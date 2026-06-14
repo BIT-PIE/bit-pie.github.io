@@ -1,11 +1,68 @@
 export const publications = [
   {
+    title: 'M³Detection: Multi-Frame Multi-Level Feature Fusion for Multi-Modal 3-D Object Detection With Camera and 4-D Imaging Radar',
+    authors: 'Xiaozhi Li, Huijun Di, Jian Li, Feng Liu, Wei Liang',
+    publisher: 'IEEE Transactions on Intelligent Transportation Systems 2026 (CCF B)',
+    description: '',
+    links: {
+      image: '/project/tits26_detection/teaser.jpg',
+      paper: 'https://ieeexplore.ieee.org/document/11540092',
+      arxiv: 'https://arxiv.org/abs/2510.27166',
+    }
+  },
+  {
+    title: 'SFGFusion: Surface Fitting Guided 3D Object Detection with 4D Radar and Camera Fusion',
+    authors: 'Xiaozhi Li, Huijun Di, Jian Li, Feng Liu, Wei Liang',
+    publisher: 'Pattern Recognition 2026 (CCF B)',
+    description: '',
+    links: {
+      image: '/project/pr26_sfgfusion/teaser.jpg',
+      paper: 'https://www.sciencedirect.com/science/article/abs/pii/S0031320326009647',
+      arxiv: 'https://arxiv.org/abs/2510.19215',
+    }
+  },
+  {
+    title: 'Distilling Task-Level Coordination Policies for Generalizable Multi-Agent Cooperation',
+    authors: 'Zimo Zhai, Manjie Xu, Wei Liang',
+    publisher: 'ICML 2026 (CCF A)',
+    description: '',
+    links: {
+      image: '/project/icml26_coop/teaser.jpg',
+      paper: '/project/icml26_coop/ICML2026_Coop.pdf',
+    }
+  },
+  {
+    title: 'FloVerse: Floor Plan-Guided Multi-Modal Navigation',
+    authors: 'Weiqi Huang, Shuangyi Dong, Jiaxin Li, Yifei Guo, Zan Wang, Wei Liang',
+    publisher: 'CVPR 2026 (CCF A)',
+    description: '',
+    links: {
+      image: '/project/cvpr26_floverse/teaser.png',
+      paper: 'https://openaccess.thecvf.com/content/CVPR2026/papers/Huang_FloVerse_Floor_Plan-Guided_Multi-Modal_Navigation_CVPR_2026_paper.pdf',
+      video: 'https://www.youtube.com/watch?v=hDumqRcNmcw',
+      web: 'https://wikiahuang.github.io/floverse/'
+    }
+  },
+  {
+    title: 'What You See Is What You Wear: Crafting Garments for Diverse Avatars with Consistent Wearing Effects',
+    authors: 'Zan Wang, Anqi Li, Yixuan Li, Wei Liang, Bing Ning',
+    publisher: 'IEEE TVCG (Special Issue on IEEE VR 2026) (CCF A)',
+    description: '',
+    links: {
+      image: '/project/vr26_tailor/teaser.jpg',
+      paper: 'https://ieeexplore.ieee.org/document/11474760',
+      video: 'https://www.youtube.com/watch?v=t_5YbKW4q4I',
+      web: 'https://pie-lab.cn/Tailor/',
+    }
+  },
+  {
     title: 'RadarMP: Motion Perception for 4D mmWave Radar in Autonomous Driving',
     authors: 'Ruiqi Cheng, Huijun Di, Jian Li, Feng Liu, Wei Liang',
-    publisher: 'AAAI 2026',
+    publisher: 'AAAI 2026 (CCF A)',
     description: '',
     links: {
       image: '/project/aaai26_radarmp/teaser.png',
+      paper: 'https://ojs.aaai.org/index.php/AAAI/article/view/37323',
       arxiv: 'http://arxiv.org/abs/2511.12117',
       code: 'https://github.com/chengrui7/RadarMP',
     },
@@ -43,6 +100,7 @@ export const publications = [
     description: '',
     links: {
       image: '/project/iros25_env/Env-manip_teaser.png',
+      paper: 'https://ieeexplore.ieee.org/document/11246108/',
       video: 'https://www.youtube.com/watch?v=8BAaLCI8cis',
       web: 'https://sites.google.com/view/env-mani',
     }
@@ -77,7 +135,7 @@ export const publications = [
   {
     title: "X's Day: Personality-Driven Virtual Human Behavior Generation",
     authors: 'Haoyang Li, Zan Wang, Wei Liang, Yizhuo Wang',
-    publisher: 'IEEE TVCG (IEEE VR 2025 Journal Track) (CCF A)',
+    publisher: 'IEEE TVCG (Special Issue on IEEE VR 2025) (CCF A)',
     description: 'This paper introduces a novel task focused on autoregressively generating long-term behaviors for virtual agents, guided by specific personality traits and contextual elements within 3D environments.',
     links: {
       image: '/project/vr25_behavior/teaser.jpg',

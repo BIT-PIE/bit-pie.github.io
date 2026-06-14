@@ -1,5 +1,13 @@
 export const news = [
   {
+    date: '2026.05',
+    content: 'Our paper \"SFGFusion: Surface Fitting Guided 3D Object Detection with 4D Radar and Camera Fusion\" was accepted by PR and paper \"M³Detection: Multi-Frame Multi-Level Feature Fusion for Multi-Modal 3-D Object Detection With Camera and 4-D Imaging Radar\" was accepted by T-ITS. Congratulations to Xiaozhi!'
+  },
+  {
+    date: '2026.05',
+    content: 'Our paper \"Distilling Task-Level Coordination Policies for Generalizable Multi-Agent Cooperation\" was accepted by ICML 2026. Congratulations to Zimo!'
+  },
+  {
     date: '2026.03',
     content: 'Our paper \"FloVerse: Floor Plan-Guided Multi-Modal Navigation\" was accepted by CVPR 2026. Congratulations to Weiqi!',
   },

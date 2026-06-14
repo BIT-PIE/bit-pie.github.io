@@ -17,6 +17,34 @@ export const members = [
     }
   },
   {
+    enName: 'Xiangzhen Pang',
+    chName: '庞项祯',
+    role: ROLE.undergraduate,
+    description: 'Undergraduate Student ’24',
+    links: {
+      avatar: '/images/people/pangxiangzhen.jpg',
+      email: '2987007114@qq.com'
+    }
+  },
+  {
+    enName: 'Xinwei Li',
+    chName: '李欣蔚',
+    role: ROLE.undergraduate,
+    description: 'Undergraduate Student ’23',
+    links: {
+      avatar: '/images/people/lixinwei.jpg',
+    }
+  },
+  {
+    enName: 'Zihao Chen',
+    chName: '陈子昊',
+    role: ROLE.undergraduate,
+    description: 'Undergraduate Student ’25',
+    links: {
+      avatar: '/images/people/chenzihao.jpg',
+    }
+  },
+  {
     enName: 'Dianyi Yang',
     chName: '杨殿一',
     role: ROLE.student,
