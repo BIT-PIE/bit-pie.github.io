@@ -46,7 +46,7 @@ export const publications = [
   {
     title: 'COLA:Learning Human-Humanoid Coordination for Collaborative Object Carrying',
     authors: 'Yushi Du*, Yixuan Li*, Baoxiong Jia*, Yutang Lin, Pei Zhou, Wei Liang, Yanchao Yang, Siyuan Huang',
-    publisher: 'ICRA 2026 (CCF A)',
+    publisher: 'ICRA 2026 (CCF B)',
     description: '',
     links: {
       image: '/project/icra26_cola/teaser.jpg',

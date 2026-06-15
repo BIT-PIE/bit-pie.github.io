@@ -52,6 +52,7 @@ export const members = [
     description: 'Undergraduate Student ’23',
     links: {
       avatar: '/images/people/lixinwei.jpg',
+      github: 'https://github.com/lxw429',
     }
   },
   {
