@@ -12,6 +12,10 @@ export const news = [
     content: 'Our paper \"FloVerse: Floor Plan-Guided Multi-Modal Navigation\" was accepted by CVPR 2026. Congratulations to Weiqi!',
   },
   {
+    date: '2026.01',
+    content: 'Our paper \"COLA:Learning Human-Humanoid Coordination for Collaborative Object Carrying\" was accepted by ICRA 2026. Congratulations to Yixuan!'
+  },
+  {
     date: '2025.12',
     content: 'Our paper \"What You See Is What You Wear: Crafting Garments for Diverse Avatars with Consistent Wearing Effects\" was accepted by VR 2026. Congratulations to Zan and Anqi!',
   },

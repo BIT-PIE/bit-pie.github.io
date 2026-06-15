@@ -44,8 +44,20 @@ export const publications = [
     }
   },
   {
+    title: 'COLA:Learning Human-Humanoid Coordination for Collaborative Object Carrying',
+    authors: 'Yushi Du*, Yixuan Li*, Baoxiong Jia*, Yutang Lin, Pei Zhou, Wei Liang, Yanchao Yang, Siyuan Huang',
+    publisher: 'ICRA 2026 (CCF A)',
+    description: '',
+    links: {
+      image: '/project/icra26_cola/teaser.png',
+      arxiv: 'https://arxiv.org/pdf/2510.14293',
+      web: 'https://yushi-du.github.io/COLA/',
+      code: 'https://github.com/Yushi-Du/COLA_Code'
+    }
+  },
+  {
     title: 'What You See Is What You Wear: Crafting Garments for Diverse Avatars with Consistent Wearing Effects',
-    authors: 'Zan Wang, Anqi Li, Yixuan Li, Wei Liang, Bing Ning',
+    authors: 'Zan Wang*, Anqi Li*, Yixuan Li, Wei Liang, Bing Ning',
     publisher: 'IEEE TVCG (Special Issue on IEEE VR 2026) (CCF A)',
     description: '',
     links: {
