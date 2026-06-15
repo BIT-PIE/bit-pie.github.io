@@ -17,6 +17,25 @@ export const members = [
     }
   },
   {
+    enName: 'Yutong Liu',
+    chName: '刘雨桐',
+    role: ROLE.undergraduate,
+    description: 'Undergraduate Student ’24',
+    links: {
+      avatar: '/images/people/liuyutong.jpg',
+    }
+  },
+  {
+    enName: 'Boqi Lv',
+    chName: '吕泊奇',
+    role: ROLE.undergraduate,
+    description: 'Undergraduate Student ’23',
+    links: {
+      avatar: '/images/people/lvboqi.jpg',
+      github: 'https://github.com/lvboqi409',
+    }
+  },
+  {
     enName: 'Xiangzhen Pang',
     chName: '庞项祯',
     role: ROLE.undergraduate,
