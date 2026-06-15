@@ -37,7 +37,7 @@ export const publications = [
     publisher: 'CVPR 2026 (CCF A)',
     description: '',
     links: {
-      image: '/project/cvpr26_floverse/teaser.png',
+      image: '/project/cvpr26_floverse/teaser.jpg',
       paper: 'https://openaccess.thecvf.com/content/CVPR2026/papers/Huang_FloVerse_Floor_Plan-Guided_Multi-Modal_Navigation_CVPR_2026_paper.pdf',
       video: 'https://www.youtube.com/watch?v=hDumqRcNmcw',
       web: 'https://wikiahuang.github.io/floverse/'
@@ -49,7 +49,7 @@ export const publications = [
     publisher: 'ICRA 2026 (CCF A)',
     description: '',
     links: {
-      image: '/project/icra26_cola/teaser.png',
+      image: '/project/icra26_cola/teaser.jpg',
       arxiv: 'https://arxiv.org/pdf/2510.14293',
       web: 'https://yushi-du.github.io/COLA/',
       code: 'https://github.com/Yushi-Du/COLA_Code'
