@@ -29,7 +29,7 @@ export const members = [
     enName: 'Yunfeng Shen',
     chName: '沈云峰',
     role: ROLE.undergraduate,
-    description: 'Undergraduate Student ’24',
+    description: 'Undergraduate Student ’23',
     links: {
       avatar: '/images/people/shenyunfeng.jpg',
     }
