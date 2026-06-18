@@ -47,7 +47,7 @@ const avatarLink = computed(() => {
     <span v-if="links.website"><a :href="links.website" class="simple-link">{{ enName }}</a></span>
     <span v-else>{{ enName }}</span>
   </h2>
-  <h3 class="text-sm text-center text-gray-500 dark:text-neutral-400">{{ description }}</h3>
+  <h3 class="text-sm text-center text-gray-500 dark:text-neutral-400" v-html="description"></h3>
 
   <div v-if="!isAlumni" class="mt-2 flex gap-4 justify-center">
     <a v-if="links.email" :href="`mailto:${links.email}`" class="inline-flex justify-center items-center size-6 rounded-full simple-link">

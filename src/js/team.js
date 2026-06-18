@@ -17,6 +17,24 @@ export const members = [
     }
   },
   {
+    enName: 'Siyu Chen',
+    chName: '陈思宇',
+    role: ROLE.student,
+    description: 'Master Student ’24<br><span style="font-size: 0.9em;">Co-advised by Prof. Mingtao Pei</span>',
+    links: {
+      avatar: '/images/people/chensiyu.jpg',
+    }
+  },
+  {
+    enName: 'Yunfeng Shen',
+    chName: '沈云峰',
+    role: ROLE.undergraduate,
+    description: 'Undergraduate Student ’24',
+    links: {
+      avatar: '/images/people/shenyunfeng.jpg',
+    }
+  },
+  {
     enName: 'Yutong Liu',
     chName: '刘雨桐',
     role: ROLE.undergraduate,
@@ -191,7 +209,7 @@ export const members = [
   {
     enName: 'Xinfeng Gao',
     chName: '高鑫峰',
-    role: ROLE.student,
+    role: ROLE.alumni,
     description: 'Master Student ’23',
     links: {
       avatar: '/images/people/gaoxinfeng.jpg',
@@ -200,7 +218,7 @@ export const members = [
   {
     enName: 'Lebin Ding',
     chName: '丁乐斌',
-    role: ROLE.student,
+    role: ROLE.alumni,
     description: 'Master Student ’23',
     links: {
       avatar: '/images/people/dinglebin.jpg',
@@ -209,7 +227,7 @@ export const members = [
   {
     enName: 'Zeqian Li',
     chName: '李泽乾',
-    role: ROLE.student,
+    role: ROLE.alumni,
     description: 'Master Student ’23',
     links: {
       avatar: '/images/people/lizeqian.jpg',
@@ -218,7 +236,7 @@ export const members = [
   {
     enName: 'Luya Mo',
     chName: '莫璐雅',
-    role: ROLE.student,
+    role: ROLE.alumni,
     description: 'Master Student ’23',
     links: {
       avatar: '/images/people/moluya.jpg',
@@ -227,7 +245,7 @@ export const members = [
   {
     enName: 'Yu Zong',
     chName: '宗宇',
-    role: ROLE.student,
+    role: ROLE.alumni,
     description: 'Master Student ’23',
     links: {
       avatar: '/images/people/zongyu.jpg',
@@ -236,7 +254,7 @@ export const members = [
   {
     enName: 'Zhipeng Lou',
     chName: '娄志鹏',
-    role: ROLE.student,
+    role: ROLE.alumni,
     description: 'Master Student ’23',
     links: {
       avatar: '/images/people/louzhipeng.jpg',
@@ -245,7 +263,7 @@ export const members = [
   {
     enName: 'Haoyang Li',
     chName: '李昊阳',
-    role: ROLE.student,
+    role: ROLE.alumni,
     description: 'Master Student ’23',
     links: {
       avatar: '/images/people/lihaoyang.jpg',
@@ -255,7 +273,7 @@ export const members = [
   {
     enName: 'Yili Wang',
     chName: '王宜立',
-    role: ROLE.student,
+    role: ROLE.alumni,
     description: 'Master Student ’23',
     links: {
       avatar: '/images/people/wangyili.jpg',
@@ -319,7 +337,7 @@ export const members = [
     enName: 'Siqi Zhu',
     chName: '朱思齐',
     role: ROLE.student,
-    description: 'Master Student ’25',
+    description: 'Ph.D. Student ’26',
     links: {
       avatar: '/images/people/zhusiqi.jpg',
     }
