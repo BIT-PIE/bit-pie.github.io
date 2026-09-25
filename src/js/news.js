@@ -21,7 +21,7 @@ export const news = [
   },
   {
     date: '2026.07',
-    content: 'Our paper \"Poros: Perception-Enabled Interactive Assistance for Appliance Use by Blind and Low Vision Users\" was accepted by . Congratulations to Yuxin and the coauthors!'
+    content: 'Our paper \"Poros: Perception-Enabled Interactive Assistance for Appliance Use by Blind and Low Vision Users\" was accepted by TVCG 2026. Congratulations to Yuxin and the coauthors!'
   },
   {
     date: '2026.05',
