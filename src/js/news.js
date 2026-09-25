@@ -1,5 +1,29 @@
 export const news = [
   {
+    date: '2026.09',
+    content: 'Our paper \"DogMo: A Large-Scale Multi-View RGB-D Dataset for 4D Canine Motion Recovery\" was accepted by IJCV. Congratulations to Zan and the coauthors!'
+  },
+  {
+    date: '2026.08',
+    content: 'Our paper \"Floor Plan-Guided Visual Navigation Incorporating Depth and Directional Cues\" was accepted by IEEE RA-L. Congratulations to Weiqi!'
+  },
+  {
+    date: '2026.08',
+    content: 'Our paper \"Embodied Scene Rearrangement Planning\" was accepted by IEEE RA-L. Congratulations to Canzhi and the coauthors!'
+  },
+  {
+    date: '2026.07',
+    content: 'Our paper \"Learning to Generate Text-guided 3D Canine-Object Interactions via Video Diffusion Priors\" was accepted by SIGGRAPH Asia 2026. Congratulations to Siyu!'
+  },
+  {
+    date: '2026.07',
+    content: 'Our papaer \"Selective Fusion of Raw Radar and Camera for Robust Motion Perception with a Bidirectional BEV-to-3D Architecture\" was accepted by MM 2026 and paper \"Exploring the Design of AR-Based Procedural Guidance Tools to Support Reproducible Laboratory Workflows\" was accepted by TPCI. Congratulations to Ruiqi and Yuxin!'
+  },
+  {
+    date: '2026.07',
+    content: 'Our paper \"Poros: Perception-Enabled Interactive Assistance for Appliance Use by Blind and Low Vision Users\" was accepted by . Congratulations to Yuxin and the coauthors!'
+  },
+  {
     date: '2026.05',
     content: 'Our paper \"SFGFusion: Surface Fitting Guided 3D Object Detection with 4D Radar and Camera Fusion\" was accepted by PR and paper \"M³Detection: Multi-Frame Multi-Level Feature Fusion for Multi-Modal 3-D Object Detection With Camera and 4-D Imaging Radar\" was accepted by T-ITS. Congratulations to Xiaozhi!'
   },

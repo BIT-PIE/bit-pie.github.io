@@ -1,8 +1,78 @@
 export const publications = [
   {
+    title: 'DogMo: A Large-Scale Multi-View RGB-D Dataset for 4D Canine Motion Recovery',
+    authors: 'Zan Wang*, Siyu Chen*, Luya Mo*, Xinfeng Gao, Yuxin Shen, Lebin Ding, Wei Liang',
+    publisher: 'International Journal of Computer Vision 2026 (CCF A)',
+    description: '',
+    links: {
+      image: '/project/ijcv26_dogmo/teaser.jpg',
+      arxiv: 'https://arxiv.org/abs/2510.24117v1',
+      web: 'https://pie-lab.cn/DogMo/'
+    }
+  },
+  {
+    title: 'Floor Plan-Guided Visual Navigation Incorporating Depth and Directional Cues',
+    authors: 'Weiqi Huang, Jiaxin Li, Zan Wang, Huijun Di, Wei Liang, and Zhu Yang',
+    publisher: 'IEEE Robotics and Automation Letters 2026',
+    description: '',
+    links: {
+      image: '/project/ral26_glocdiff/teaser.jpg',
+      arxiv: 'https://arxiv.org/abs/2511.01493',
+      web: 'https://github.com/wikiahuang/GlocDiff',
+    }
+  },
+  {
+    title: 'Embodied Scene Rearrangement Planning',
+    authors: 'Canzhi Chen*, Zan Wang*, Siqi Zhu*, Qi Wu*, Yixuan Li*, Wei Liang',
+    publisher: 'IEEE Robotics and Automation Letters 2026',
+    description: '',
+    links: {
+      image: '/project/ral26_esrp/teaser.jpg',
+      paper: 'https://ieeexplore.ieee.org/document/11668666',
+      web: 'https://pie-lab.cn/ESRP/'
+    }
+  },
+  {
+    title: 'Learning to Generate Text-guided 3D Canine-Object Interactions via Video Diffusion Priors',
+    authors: 'Siyu Chen, Zan Wang, Hao Xu, Minghe Zhang, Mingtao Pei, Wei Liang',
+    publisher: 'SIGGRAPH Asia 2026',
+    description: '',
+    links: {
+      image: '/project/siga26_zerocoi/teaser.jpg',
+    }
+  },
+  {
+    title: 'Exploring the Design of AR-Based Procedural Guidance Tools to Support Reproducible Laboratory Workflows',
+    authors: 'Yuxin Shen, Wei Liang, Jianzhu Ma, Yixin Zhu',
+    publisher: 'CCF Transactions on Pervasive Computing and Interaction 2026 (CCF B)',
+    description: '',
+    links: {
+      image: '/project/tpci26_exploring/teaser.jpg',
+    }
+  },
+  {
+    title: 'Selective Fusion of Raw Radar and Camera for Robust Motion Perception with a Bidirectional BEV-to-3D Architecture',
+    authors: 'Ruiqi Cheng, Huijun Di, Jian Li, Feng Liu, Wei Liang',
+    publisher: 'MM 2026 (CCF A), <font style="color:#FF0800">Oral</font>',
+    description: '',
+    links: {
+      image: '/project/mm26_rcsflow/teaser.jpg',
+      code: 'https://github.com/chengrui7/RCSFlow',
+    }
+  },
+  {
+    title: 'Poros: Perception-Enabled Interactive Assistance for Appliance Use by Blind and Low Vision Users',
+    authors: 'Yuxin Shen*, Anqi Li*, Wenxuan Zhao, Wei Liang',
+    publisher: 'TVCG 2026 (IEEE ISMAR 2026 Special Issue) (CCF A)',
+    description: '',
+    links: {
+      image: '/project/ismar26_poros/teaser.jpg',
+    }
+  },
+  {
     title: 'M³Detection: Multi-Frame Multi-Level Feature Fusion for Multi-Modal 3-D Object Detection With Camera and 4-D Imaging Radar',
     authors: 'Xiaozhi Li, Huijun Di, Jian Li, Feng Liu, Wei Liang',
-    publisher: 'IEEE Transactions on Intelligent Transportation Systems 2026 (CCF B)',
+    publisher: 'IEEE Transactions on Intelligent Transportation Systems 2026 (SCI Q1)',
     description: '',
     links: {
       image: '/project/tits26_detection/teaser.jpg',
@@ -13,7 +83,7 @@ export const publications = [
   {
     title: 'SFGFusion: Surface Fitting Guided 3D Object Detection with 4D Radar and Camera Fusion',
     authors: 'Xiaozhi Li, Huijun Di, Jian Li, Feng Liu, Wei Liang',
-    publisher: 'Pattern Recognition 2026 (CCF B)',
+    publisher: 'Pattern Recognition 2026 (SCI Q1)',
     description: '',
     links: {
       image: '/project/pr26_sfgfusion/teaser.jpg',
@@ -29,6 +99,7 @@ export const publications = [
     links: {
       image: '/project/icml26_coop/teaser.jpg',
       paper: '/project/icml26_coop/ICML2026_Coop.pdf',
+      web: 'https://zimo-zimo.github.io/syncoord.github.io/'
     }
   },
   {
@@ -39,26 +110,29 @@ export const publications = [
     links: {
       image: '/project/cvpr26_floverse/teaser.jpg',
       paper: 'https://openaccess.thecvf.com/content/CVPR2026/papers/Huang_FloVerse_Floor_Plan-Guided_Multi-Modal_Navigation_CVPR_2026_paper.pdf',
+      arxiv: 'https://arxiv.org/abs/2606.14267',
       video: 'https://www.youtube.com/watch?v=hDumqRcNmcw',
-      web: 'https://wikiahuang.github.io/floverse/'
+      web: 'https://wikiahuang.github.io/floverse/',
+      code: 'https://github.com/wikiahuang/floverse'
     }
   },
   {
-    title: 'COLA:Learning Human-Humanoid Coordination for Collaborative Object Carrying',
+    title: 'COLA: Learning Human-Humanoid Coordination for Collaborative Object Carrying',
     authors: 'Yushi Du*, Yixuan Li*, Baoxiong Jia*, Yutang Lin, Pei Zhou, Wei Liang, Yanchao Yang, Siyuan Huang',
-    publisher: 'ICRA 2026 (CCF B)',
+    publisher: 'ICRA 2026',
     description: '',
     links: {
       image: '/project/icra26_cola/teaser.jpg',
       arxiv: 'https://arxiv.org/pdf/2510.14293',
       web: 'https://yushi-du.github.io/COLA/',
+      demo: 'https://yushi-du.github.io/COLA/demo/wasm/',
       code: 'https://github.com/Yushi-Du/COLA_Code'
     }
   },
   {
     title: 'What You See Is What You Wear: Crafting Garments for Diverse Avatars with Consistent Wearing Effects',
     authors: 'Zan Wang*, Anqi Li*, Yixuan Li, Wei Liang, Bing Ning',
-    publisher: 'IEEE TVCG (Special Issue on IEEE VR 2026) (CCF A)',
+    publisher: 'IEEE TVCG (IEEE VR 2026 Special Issue) (CCF A)',
     description: '',
     links: {
       image: '/project/vr26_tailor/teaser.jpg',
@@ -86,6 +160,7 @@ export const publications = [
     description: '',
     links: {
       image: '/project/corl25_clone/CLONE_teaser.png',
+      paper: 'https://proceedings.mlr.press/v305/li25h.html',
       arxiv: 'https://arxiv.org/abs/2506.08931',
       video: 'https://vimeo.com/1092360484',
       code: 'https://github.com/humanoid-clone/CLONE/',
@@ -95,7 +170,7 @@ export const publications = [
   {
     title: 'LiteAT: A Data-Lightweight and User-Adaptive VR Telepresence System for Remote Education',
     authors: 'Yuxin Shen , Wei Liang , Jianzhu Ma',
-    publisher: 'TVCG 2025 (IEEE ISMAR 2025 Journal Track, <font style="color:#FF0800">Best Paper Awards Honorable Mention</font>) (CCF A)',
+    publisher: 'TVCG 2025 (IEEE ISMAR 2025 Special Issue, <font style="color:#FF0800">Best Paper Awards Honorable Mention</font>) (CCF A)',
     description: 'This paper introduces LiteAT, a data-lightweight and user-adaptive VR telepresence system, to enable real-time, immersive learning experiences.',
     links: {
       image: '/project/ismar25_liteat/teaser.jpg',
@@ -108,7 +183,7 @@ export const publications = [
   {
     title: 'Env-Mani: Quadrupedal Robot Loco-Manipulation with Environment-in-the-Loop',
     authors: 'Yixuan Li, Zan Wang, Wei Liang',
-    publisher: 'IROS 2025 (CCF C)',
+    publisher: 'IROS 2025',
     description: '',
     links: {
       image: '/project/iros25_env/Env-manip_teaser.png',
@@ -120,7 +195,7 @@ export const publications = [
   {
     title: 'R2G: Reasoning to Ground in 3D Scenes',
     authors: 'Yixuan Li, Zan Wang, Wei Liang',
-    publisher: 'Pattern Recognition 2025 (CCF B)',
+    publisher: 'Pattern Recognition 2025 (SCI Q1)',
     description: '',
     links: {
       image: '/project/pr25_r2g/R2G_teaser.png',
@@ -147,7 +222,7 @@ export const publications = [
   {
     title: "X's Day: Personality-Driven Virtual Human Behavior Generation",
     authors: 'Haoyang Li, Zan Wang, Wei Liang, Yizhuo Wang',
-    publisher: 'IEEE TVCG (Special Issue on IEEE VR 2025) (CCF A)',
+    publisher: 'IEEE TVCG (IEEE VR 2025 Special Issue) (CCF A)',
     description: 'This paper introduces a novel task focused on autoregressively generating long-term behaviors for virtual agents, guided by specific personality traits and contextual elements within 3D environments.',
     links: {
       image: '/project/vr25_behavior/teaser.jpg',
@@ -159,7 +234,7 @@ export const publications = [
   {
     title: 'Visual Loop Closure Detection with Thorough Temporal and Spatial Context Exploitation',
     authors: 'Jiaxin Li*, Zan Wang*, Huijun Di, Jian Li, Wei Liang',
-    publisher: 'IROS 2024 (CCF C), <font style="color:#FF0800">Oral Pitch</font>',
+    publisher: 'IROS 2024, <font style="color:#FF0800">Oral Pitch</font>',
     description: 'We propose to leverage the global temporal and local spatial-temporal information for loop closure detection.',
     links: {
       image: '/project/iros24_tosa/teaser.png',
@@ -171,7 +246,7 @@ export const publications = [
   {
     title: 'Mastering Scene Rearrangement with Expert-assisted Curriculum Learning and Adaptive Trade-Off Tree-Search',
     authors: 'Zan Wang*, Hanqing Wang*, Wei Liang',
-    publisher: 'IROS 2024 (CCF C), <font style="color:#FF0800">Oral Pitch</font>',
+    publisher: 'IROS 2024, <font style="color:#FF0800">Oral Pitch</font>',
     description: 'We solve scene rearrangement planning by introducing an expert-assisted curriculum learning paradigm and a tree-search-based planner enhanced by an adaptive trade-off strategy.',
     links: {
       image: '/project/iros24_plato/teaser.png',
@@ -310,7 +385,7 @@ export const publications = [
   {
     title: 'Active Perception for Visual-Language Navigation',
     authors: 'Hanqing Wang, Wenguan Wang, Wei Liang, Steven C. H. Hoi, Jianbing Shen, Luc Van Gool',
-    publisher: 'IJCV 2023 (CCF A)',
+    publisher: 'International Journal of Computer Vision 2023 (CCF A)',
     description: 'This work draws inspiration from human navigation behavior and endows an agent with an active perception ability for more intelligent navigation. To this end, we propose an end-to-end framework for learning an exploration policy that decides (i) when and where to explore, (ii) what information is worth gathering during exploration, and (iii) how to adjust the navigation decision after the exploration.',
     links: {
       image: '/project/ijcv23_active/teaser.jpg',
@@ -445,7 +520,7 @@ export const publications = [
   {
     title: 'Active Visual Information Gathering for Vision-Language Navigation',
     authors: 'Hanqing Wang, Wenguan Wang, Tianmin Shu, Wei Liang, and Jianbing Shen',
-    publisher: 'ECCV 2020 (CCF B)',
+    publisher: 'ECCV 2020',
     description: 'We propose an end-to-end trainable agent with active exploration ability for the VLN task. The agent can intelligently interact with the environment and actively gather information when faced with ambiguous instructions or unconfident navigation decisions.',
     links: {
       image: 'https://i.loli.net/2021/02/07/9nwZJucr5FblGQT.jpg',
@@ -605,7 +680,7 @@ export const publications = [
   {
     title: 'Evaluating Human Cognition of Containing Relations with Physical Simulation',
     authors: 'Wei Liang, Yibiao Zhao, Yixin Zhu, and Songchun Zhu',
-    publisher: 'CogSci 2015 (CCF B)',
+    publisher: 'CogSci 2015',
     description: 'We discover that physical simulation is an excellent approximation of the human cognition of containers and the containing relations using physical simulation. We also analyze human judgments concerning physical simulation results under different scenarios.',
     links: {
       image: 'https://i.loli.net/2020/09/26/843unv9Cjz75m6N.gif',

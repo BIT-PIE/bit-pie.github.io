@@ -17,21 +17,49 @@ export const members = [
     }
   },
   {
-    enName: 'Siyu Chen',
-    chName: '陈思宇',
+    enName: 'Tianyu Wang',
+    chName: '王天宇',
     role: ROLE.student,
-    description: 'Master Student ’24<br><span style="font-size: 0.9em;">Co-advised by Prof. Mingtao Pei</span>',
+    description: 'Ph.D. Student ’26',
     links: {
-      avatar: '/images/people/chensiyu.jpg',
+      avatar: '/images/people/wangtianyu.jpg',
+      website: 'https://tianyuwang01.github.io/',
     }
   },
   {
-    enName: 'Yunfeng Shen',
-    chName: '沈云峰',
-    role: ROLE.undergraduate,
-    description: 'Undergraduate Student ’23',
+    enName: 'Zimo Zhao',
+    chName: '赵子墨',
+    role: ROLE.student,
+    description: 'Master Student ’26',
     links: {
-      avatar: '/images/people/shenyunfeng.jpg',
+      avatar: '/images/people/zhaozimo.jpg',
+    }
+  },
+  {
+    enName: 'Feng Xiong',
+    chName: '熊锋',
+    role: ROLE.student,
+    description: 'Master Student ’26',
+    links: {
+      avatar: '/images/people/xiongfeng.jpg',
+    }
+  },
+  {
+    enName: 'Jiawei Tang',
+    chName: '唐珈玮',
+    role: ROLE.student,
+    description: 'Master Student ’26',
+    links: {
+      avatar: '/images/people/tangjiawei.jpg',
+    }
+  },
+  {
+    enName: 'Siyu Chen',
+    chName: '陈思宇',
+    role: ROLE.student,
+    description: 'Master Student ’24',
+    links: {
+      avatar: '/images/people/chensiyu.jpg',
     }
   },
   {
@@ -340,9 +368,9 @@ export const members = [
     description: 'Ph.D. Student ’26',
     links: {
       avatar: '/images/people/zhusiqi.jpg',
+      website: 'https://zhusiiqii.github.io/homepage/ ',
     }
   },
-
   {
     enName: 'Yujia Wang',
     chName: '王雨佳',
