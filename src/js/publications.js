@@ -29,6 +29,8 @@ export const publications = [
     links: {
       image: '/project/ral26_esrp/teaser.jpg',
       paper: 'https://ieeexplore.ieee.org/document/11668666',
+      arxiv: 'https://arxiv.org/abs/2608.27371',
+      code: 'https://github.com/BIT-PIE/ESRP',
       web: 'https://pie-lab.cn/ESRP/'
     }
   },
@@ -48,6 +50,9 @@ export const publications = [
     description: '',
     links: {
       image: '/project/tpci26_exploring/teaser.jpg',
+      paper: 'https://link.springer.com/article/10.1007/s42486-026-00255-x',
+      web: 'https://syxcandice.github.io/AR-Based-Laboratory-Protocols-Design/',
+      video: 'https://syxcandice.github.io/AR-Based-Laboratory-Protocols-Design/#video'
     }
   },
   {
@@ -78,6 +83,8 @@ export const publications = [
       image: '/project/tits26_detection/teaser.jpg',
       paper: 'https://ieeexplore.ieee.org/document/11540092',
       arxiv: 'https://arxiv.org/abs/2510.27166',
+      code: 'https://github.com/lixzzzzzz/Code-M3',
+      web: 'https://lixzzzzzz.github.io/M3Detection/'
     }
   },
   {
@@ -89,6 +96,8 @@ export const publications = [
       image: '/project/pr26_sfgfusion/teaser.jpg',
       paper: 'https://www.sciencedirect.com/science/article/abs/pii/S0031320326009647',
       arxiv: 'https://arxiv.org/abs/2510.19215',
+      code: 'https://github.com/lixzzzzzz/Code-SFG',
+      web: 'https://lixzzzzzz.github.io/SFGFusion/'
     }
   },
   {
@@ -152,6 +161,16 @@ export const publications = [
       arxiv: 'http://arxiv.org/abs/2511.12117',
       code: 'https://github.com/chengrui7/RadarMP',
     },
+  },
+  {
+    title: 'Emergency Evacuation Map Guided Navigation via Topological Alignment and VLM Reasoning',
+    authors: 'Canzhi Chen, Weiqi Huang, Jiaxin Li, Zan Wang, Huijun Di, Wei Liang',
+    publisher: 'PRCV 2025',
+    description: '',
+    links: {
+      image: '/project/prcv25_enav/teaser.jpg',
+      paper: 'https://link.springer.com/chapter/10.1007/978-981-95-5679-3_36'
+    }
   },
   {
     title: 'CLONE: Closed-Loop Whole-Body Humanoid Teleoperation for Long-Horizon Tasks',

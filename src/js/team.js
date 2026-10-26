@@ -209,7 +209,7 @@ export const members = [
     description: 'Ph.D. Student ’23',
     links: {
       avatar: '/images/people/chengruiqi.jpg',
-      website: 'https://reachel1.github.io/',
+      website: 'https://chengrui7.github.io/',
     }
   },
   {
