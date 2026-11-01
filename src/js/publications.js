@@ -45,8 +45,8 @@ export const publications = [
     links: {
       image: '/project/siga26_zerocoi/teaser.jpg',
       paper: 'https://zerocoi.github.io/static/pdfs/paper.pdf',
-      web: 'https://github.com/BIT-PIE/ZeroCOI',
-      code: 'https://zerocoi.github.io/'
+      web: 'https://zerocoi.github.io/',
+      code: 'https://github.com/BIT-PIE/ZeroCOI'
     }
   },
   {
