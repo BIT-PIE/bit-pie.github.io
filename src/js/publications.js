@@ -6,8 +6,10 @@ export const publications = [
     description: '',
     links: {
       image: '/project/ijcv26_dogmo/teaser.jpg',
+      paper: 'https://link.springer.com/article/10.1007/s11263-026-03071-z',
       arxiv: 'https://arxiv.org/abs/2510.24117v1',
-      web: 'https://pie-lab.cn/DogMo/'
+      web: 'https://pie-lab.cn/DogMo/',
+      code: 'https://github.com/BIT-PIE/DogMo'
     }
   },
   {
@@ -17,8 +19,9 @@ export const publications = [
     description: '',
     links: {
       image: '/project/ral26_glocdiff/teaser.jpg',
+      paper: 'https://ieeexplore.ieee.org/document/11718919',
       arxiv: 'https://arxiv.org/abs/2511.01493',
-      web: 'https://github.com/wikiahuang/GlocDiff',
+      code: 'https://github.com/wikiahuang/GlocDiff',
     }
   },
   {
@@ -41,6 +44,9 @@ export const publications = [
     description: '',
     links: {
       image: '/project/siga26_zerocoi/teaser.jpg',
+      paper: 'https://zerocoi.github.io/static/pdfs/paper.pdf',
+      web: 'https://github.com/BIT-PIE/ZeroCOI',
+      code: 'https://zerocoi.github.io/'
     }
   },
   {
@@ -72,6 +78,9 @@ export const publications = [
     description: '',
     links: {
       image: '/project/ismar26_poros/teaser.jpg',
+      paper: 'https://doi.org/10.1109/TVCG.2026.3747537',
+      web: 'https://syxcandice.github.io/Poros/',
+      video: 'https://youtu.be/rqVvic2tKZk'
     }
   },
   {
